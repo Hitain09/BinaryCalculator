@@ -14,6 +14,7 @@
 		7450731E1F273353003C5DD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7450731C1F273353003C5DD2 /* LaunchScreen.storyboard */; };
 		745073291F273353003C5DD2 /* BinaryCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745073281F273353003C5DD2 /* BinaryCalculatorTests.swift */; };
 		745073341F273354003C5DD2 /* BinaryCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745073331F273354003C5DD2 /* BinaryCalculatorUITests.swift */; };
+		749954AF1F27C9500090759F /* binary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749954AE1F27C9500090759F /* binary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7450732F1F273354003C5DD2 /* BinaryCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinaryCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		745073331F273354003C5DD2 /* BinaryCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryCalculatorUITests.swift; sourceTree = "<group>"; };
 		745073351F273354003C5DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		749954AE1F27C9500090759F /* binary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = binary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				745073131F273353003C5DD2 /* AppDelegate.swift */,
 				745073151F273353003C5DD2 /* ViewController.swift */,
+				749954AE1F27C9500090759F /* binary.swift */,
 				745073171F273353003C5DD2 /* Main.storyboard */,
 				7450731A1F273353003C5DD2 /* Assets.xcassets */,
 				7450731C1F273353003C5DD2 /* LaunchScreen.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					7450730F1F273353003C5DD2 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = X8J5C2ZB4M;
 						ProvisioningStyle = Automatic;
 					};
 					745073231F273353003C5DD2 = {
@@ -260,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				745073161F273353003C5DD2 /* ViewController.swift in Sources */,
+				749954AF1F27C9500090759F /* binary.swift in Sources */,
 				745073141F273353003C5DD2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X8J5C2ZB4M;
 				INFOPLIST_FILE = BinaryCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BinaryCalculator.BinaryCalculator;
@@ -426,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X8J5C2ZB4M;
 				INFOPLIST_FILE = BinaryCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BinaryCalculator.BinaryCalculator;
@@ -507,6 +514,7 @@
 				7450733A1F273354003C5DD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7450733B1F273354003C5DD2 /* Build configuration list for PBXNativeTarget "BinaryCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				7450733D1F273354003C5DD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7450733E1F273354003C5DD2 /* Build configuration list for PBXNativeTarget "BinaryCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +532,7 @@
 				745073401F273354003C5DD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
